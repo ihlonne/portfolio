@@ -10,6 +10,12 @@ import {
 import selfie from '../assets/selfie.png';
 
 function Home() {
+  const scrollToSection = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Container
       maxW='container.xl'
@@ -106,6 +112,9 @@ function Home() {
               base: 'center',
               md: 'unset',
             }}
+            onClick={() =>
+              scrollToSection('projects')
+            }
           >
             View Projects
           </Button>
