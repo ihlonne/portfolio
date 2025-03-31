@@ -80,7 +80,7 @@ function Projects() {
         m='0 auto'
         mt={{ base: '4rem', md: 0 }}
       >
-        <Heading as='h1' mb='4'>
+        <Heading as='h1' mb='4rem' size='2xl'>
           BROWSE
           <Text as='span' color='brand.900'>
             .
