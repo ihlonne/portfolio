@@ -7,6 +7,7 @@ import {
 } from '@chakra-ui/react';
 
 import selfie from '../assets/selfie2.png';
+import Highlight from '../components/UI/Highlight';
 
 function About() {
   return (
@@ -79,13 +80,9 @@ function About() {
             >
               <Text>
                 Hi, I’m{' '}
-                <Text
-                  as='span'
-                  color='brand.900'
-                  fontWeight='bold'
-                >
+                <Highlight>
                   Ingelinn Helene
-                </Text>{' '}
+                </Highlight>{' '}
                 — and I really love making things
                 for the internet.
               </Text>
@@ -95,18 +92,10 @@ function About() {
                 teenager, endlessly tweaking
                 Tumblr themes and getting lost in
                 the world of{' '}
-                <Text as='span' color='brand.900'>
-                  HTML
-                </Text>
-                ,{' '}
-                <Text as='span' color='brand.900'>
-                  CSS
-                </Text>
-                , and{' '}
-                <Text as='span' color='brand.900'>
-                  Photoshop
-                </Text>
-                . I didn’t know it back then, but
+                <Highlight>HTML</Highlight>,{' '}
+                <Highlight>CSS</Highlight>, and{' '}
+                <Highlight>Photoshop</Highlight>.
+                I didn’t know it back then, but
                 those hours spent customizing
                 layouts and colors were planting
                 the seeds of something bigger.
@@ -116,54 +105,38 @@ function About() {
                 Finding the correct career choice
                 for me has been hard, but today,
                 I’m finally on a path that{' '}
-                <Text
-                  as='span'
-                  color='brand.900'
-                  fontWeight='semibold'
-                >
-                  feels right
-                </Text>
+                <Highlight>feels right</Highlight>
                 . Even though I’m certified as a
                 data electronics technician, it’s
                 the creative side of tech that
                 truly clicks with me —{' '}
-                <Text as='span' color='brand.900'>
+                <Highlight>
                   front-end development
-                </Text>{' '}
+                </Highlight>{' '}
                 and{' '}
-                <Text as='span' color='brand.900'>
+                <Highlight>
                   UX/UI design
-                </Text>
+                </Highlight>
                 .
               </Text>
 
               <Text>
                 When I’m not learning or coding,
                 you can usually find me doing
-                something else that brings me joy
-                — working out, gaming, knitting,
-                reading, or baking something
-                delicious with my sourdough
-                starter,{' '}
-                <Text
-                  as='span'
-                  color='brand.900'
-                  fontStyle='italic'
-                >
-                  Braum
-                </Text>
-                .
+                something else that brings me joy;
+                spending time with friends,
+                working out, knitting, reading, or
+                baking something delicious with my
+                sourdough starter,{' '}
+                <Highlight>Braum</Highlight> (the
+                heart of the Freljord).
               </Text>
 
               <Text>
                 Still figuring it all out, but{' '}
-                <Text
-                  as='span'
-                  color='brand.900'
-                  fontWeight='semibold'
-                >
+                <Highlight>
                   happy to be on the journey 💫
-                </Text>
+                </Highlight>
               </Text>
             </Flex>
           </Flex>
