@@ -1,20 +1,18 @@
-import Header from './components/Layout/Header';
-import Footer from './components/Layout/Footer';
-
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      <Layout>
+        <Home />
+        <Projects />
+        <About />
+        <Contact />
+      </Layout>
     </>
   );
 }
